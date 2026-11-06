@@ -1,0 +1,13 @@
+{
+  "extends": "../../tsconfig.common.json",
+  // Visit https://aka.ms/tsconfig to read more about this file
+  "compilerOptions": {
+    "composite": true,
+    // File Layout
+    "rootDir": "./src",
+    "outDir": "./dist",
+  },
+  "include": ["./src"],
+  "exclude": ["**/*.test.ts", "**/*.check*", "./src/test"],
+  "files": ["./doc-index.d.ts"],
+}

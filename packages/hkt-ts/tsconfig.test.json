@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.src.json",
+  "compilerOptions": {
+    "noEmit": true,
+  },
+  "include": ["./src/**/*.test.ts", "./src/**/*.check.ts", "./src/test"],
+  "exclude": [],
+  "references": [{ "path": "./tsconfig.src.json" }, { "path": "../type-check-ts" }],
+}

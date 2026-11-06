@@ -1,0 +1,9 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "entryPointStrategy": "packages",
+  "entryPoints": ["../packages/*"],
+  "alwaysCreateEntryPointModule": false,
+  "cleanOutputDir": true,
+  "useFirstParagraphOfCommentAsSummary": true,
+  "out": "../docs",
+}

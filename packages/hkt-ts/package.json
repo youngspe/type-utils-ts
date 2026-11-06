@@ -1,0 +1,25 @@
+{
+  "name": "@youngspe/hkt-ts",
+  "version": "0.1.0",
+  "files": [
+    "./dist",
+    "!*.map"
+  ],
+  "exports": {
+    ".": "./dist/index.js",
+    "./typedMap": "./dist/typedMap.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Spencer Young",
+    "url": "https://youngspe.dev/"
+  },
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@youngspe/type-check": "workspace:"
+  }
+}

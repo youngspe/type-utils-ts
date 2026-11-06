@@ -1,0 +1,29 @@
+{
+  "name": "type-utils-ts",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "doc": "cd ./doc-gen && node --run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Spencer Young",
+    "url": "https://youngspe.dev/"
+  },
+  "license": "MIT",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "^12.16.1",
+      "onFail": "download"
+    }
+  },
+  "type": "module",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "npm-run-all2": "^9.0.4",
+    "prettier": "^3.9.10",
+    "typescript": "^7.0.2"
+  }
+}
