@@ -10,13 +10,21 @@
     "./typedMap": "./dist/typedMap.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepublishOnly": "tsc --build"
   },
-  "keywords": [],
+  "keywords": [
+    "HKT"
+  ],
+  "description": "Higher-kinded types in TypeScript!",
+  "repository": {
+    "url": "https://github.com/youngspe/type-utils-ts",
+    "directory": "packages/hkt-ts"
+  },
   "author": {
     "name": "Spencer Young",
     "url": "https://youngspe.dev/"
   },
+  "homepage": "https://youngspe.dev/type-utils-ts/modules/_youngspe_hkt-ts.html",
   "license": "MIT",
   "type": "module",
   "devDependencies": {
